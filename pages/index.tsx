@@ -12,7 +12,7 @@ export default function Home(): ReactElement {
     { name: "OpenSea", url: "" },
     {
       name: "Twitter",
-      url: "",
+      url: "https://twitter.com/lootforwar",
     },
     {
       name: "Contract",
