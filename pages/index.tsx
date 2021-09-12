@@ -21,7 +21,7 @@ export default function Home(): ReactElement {
     },
     {
       name: "Discord",
-      url: "https://discord.gg/2mcWcTG8p9"
+      url: "https://discord.gg/tDcQymwCs5"
     }
   ];
 
