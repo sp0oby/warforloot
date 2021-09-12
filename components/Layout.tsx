@@ -35,7 +35,7 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>War</title>
+      <title>WAR</title>
       <meta name="title" content="Loot(for War)" />
       <meta
         name="description"
