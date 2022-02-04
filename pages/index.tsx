@@ -10,7 +10,7 @@ import { defaultBags } from "@utils/constants";
 export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
-    { name: "Marketplace", url: "https://tofunft.com/metis" },
+    { name: "Marketplace", url: "https://tofunft.com/discover/items?contracts=11095&network=1088" },
     {
       name: "Twitter",
       url: "https://twitter.com/lootforwar",
