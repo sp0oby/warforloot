@@ -109,7 +109,7 @@ function Footer(): ReactElement {
   return (
     <div className={styles.footer}>
       <p>
-        You can mint from the contract. Enjoy.
+        You can mint from the contract (claim). Enjoy.
 
       </p>
     </div>
