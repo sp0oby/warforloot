@@ -39,7 +39,7 @@ function Head(): ReactElement {
       <meta name="title" content="Loot(for War)" />
       <meta
         name="description"
-        content="Loot(for War) is randomized war loot generated and stored on the blockchain."
+        content="Loot(for War) is randomized war loot generated and stored on Metis."
       />
 
       {/* OG + Faceook */}
@@ -48,7 +48,7 @@ function Head(): ReactElement {
       <meta property="og:title" content="Loot(for War)" />
       <meta
         property="og:description"
-        content="Loot(for War) is randomized war loot generated and stored on the blockchain."
+        content="Loot(for War) is randomized war loot generated and stored on Metis."
       />
       <meta property="og:image" content="https://lootforwar.com/meta.png" />
 
@@ -58,7 +58,7 @@ function Head(): ReactElement {
       <meta property="twitter:title" content="Loot" />
       <meta
         property="twitter:description"
-        content="Loot(for War) is randomized war loot generated and stored on the blockchain."
+        content="Loot(for War) is randomized war loot generated and stored on Metis."
       />
       <meta property="twitter:image" content="" />
 
@@ -109,7 +109,7 @@ function Footer(): ReactElement {
   return (
     <div className={styles.footer}>
       <p>
-        You can mint from the contract (claim). Enjoy.
+        You can mint (claim) for free from the contract. Enjoy.
 
       </p>
     </div>
