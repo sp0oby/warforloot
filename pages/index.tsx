@@ -64,7 +64,7 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            Loot(for War) is randomized war loot generated and stored on the blockchain.
+            Loot(for War) is randomized war loot generated and stored on Metis.
             <br /> Each "Force" includes a country, support (air, land, and sea), tactic (offensive and defensive), bomb, and random surplus.<br /> Feel free to use forces in any
             way you want. Community involvement is encouraged. 
           </p>
