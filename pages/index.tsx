@@ -10,18 +10,18 @@ import { defaultBags } from "@utils/constants";
 export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
-    { name: "OpenSea", url: "" },
+    { name: "Marketplace", url: "https://tofunft.com/metis" },
     {
       name: "Twitter",
       url: "https://twitter.com/lootforwar",
     },
     {
       name: "Contract",
-      url: "",
+      url: "https://andromeda-explorer.metis.io/address/0xAd60229eCdC4b907F0e2152ba18e284cCBfCb261/contracts",
     },
     {
       name: "Discord",
-      url: "https://discord.gg/tDcQymwCs5"
+      url: "https://discord.gg/B6mmVvGEZx"
     }
   ];
 

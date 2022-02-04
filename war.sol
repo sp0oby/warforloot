@@ -1323,7 +1323,11 @@ contract War is ERC721Enumerable, ReentrancyGuard, Ownable {
         "Iran",
         "Mexico",
         "Somalia",
-        "Australia"
+        "Australia",
+        "Argentina",
+        "South Africa",
+        "Spain",
+        "Lebanon"
     ];
     
     string[] private airForce = [
@@ -1454,7 +1458,9 @@ contract War is ERC721Enumerable, ReentrancyGuard, Ownable {
     
     string[] private suffixes = [
         " +2",
-        " +1"
+        " +1",
+        " -2",
+        " -1"
     ];
     
     function random(string memory input) internal pure returns (uint256) {
@@ -1558,12 +1564,12 @@ contract War is ERC721Enumerable, ReentrancyGuard, Ownable {
     }
 
     function claim(uint256 tokenId) public nonReentrant {
-        require(tokenId > 0 && tokenId < 7999, "Token ID invalid");
+        require(tokenId > 0 && tokenId < 5999, "Token ID invalid");
         _safeMint(_msgSender(), tokenId);
     }
     
     function ownerClaim(uint256 tokenId) public nonReentrant onlyOwner {
-        require(tokenId > 7995 && tokenId < 7999, "Token ID invalid");
+        require(tokenId > 5950 && tokenId < 5999, "Token ID invalid");
         _safeMint(owner(), tokenId);
     }
     
@@ -1589,7 +1595,7 @@ contract War is ERC721Enumerable, ReentrancyGuard, Ownable {
         return string(buffer);
     }
     
-    constructor() ERC721("War", "WAR") Ownable() {}
+    constructor() ERC721("WAR", "WAR") Ownable() {}
 }
 
 /// [MIT License]
