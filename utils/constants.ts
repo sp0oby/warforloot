@@ -1,7 +1,7 @@
 // Export selected default bags
 export const defaultBags = [
   {
-    id: 4444,
+    id: 474,
     attributes: [
       "Finland",
       'B1 Lancer',
@@ -14,7 +14,7 @@ export const defaultBags = [
     ],
   },
   {
-    id: 1111,
+    id: 1981,
     attributes: [
       "Poland",
       "Hawker Hurricane",
@@ -36,7 +36,7 @@ export const defaultBags = [
       "Ambush",
       "Foxholes",
       "Dirty Bomb",
-      "Enemy Uniform +1"
+      "Enemy Uniform -1"
     ],
   },
 ];
