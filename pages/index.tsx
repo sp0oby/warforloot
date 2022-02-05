@@ -20,8 +20,8 @@ export default function Home(): ReactElement {
       url: "https://andromeda-explorer.metis.io/address/0xAd60229eCdC4b907F0e2152ba18e284cCBfCb261/contracts",
     },
     {
-      name: "Discord",
-      url: "https://discord.gg/B6mmVvGEZx"
+      name: "Telegram",
+      url: "https://t.me/lootforwar"
     }
   ];
 
