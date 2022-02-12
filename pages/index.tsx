@@ -10,7 +10,7 @@ import { defaultBags } from "@utils/constants";
 export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
-    { name: "Marketplace", url: "https://tofunft.com/collection/loot-for-war/items" },
+    { name: "Marketplace", url: "https://tofunft.com/metis" },
     {
       name: "Twitter",
       url: "https://twitter.com/lootforwar",
@@ -20,8 +20,12 @@ export default function Home(): ReactElement {
       url: "https://andromeda-explorer.metis.io/address/0xAd60229eCdC4b907F0e2152ba18e284cCBfCb261/contracts",
     },
     {
-      name: "Telegram",
-      url: "https://t.me/lootforwar"
+      name: "Discord",
+      url: "https://discord.gg/B6mmVvGEZx"
+    },
+    {
+      name: "Rarity",
+      url: "https://lootforwar.herokuapp.com/"
     }
   ];
 
@@ -66,7 +70,7 @@ export default function Home(): ReactElement {
           <p>
             Loot(for War) is randomized war loot generated and stored on Metis.
             <br /> Each "Force" includes a country, support (air, land, and sea), tactic (offensive and defensive), bomb, and random surplus.<br /> Feel free to use forces in any
-            way you want. SUPPLY: 6000. Community involvement is encouraged. 
+            way you want. Community involvement is encouraged. 
           </p>
         </div>
 
@@ -75,7 +79,7 @@ export default function Home(): ReactElement {
           {getRandomThreeBags().map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
             <a
-              href={`https://tofunft.com/nft/metis/0xAd60229eCdC4b907F0e2152ba18e284cCBfCb261/${id}`}
+              href={`https://testnets.opensea.io/assets/0x10ba0945efa928338e49dfcb31dc52f021c5ca61/${id}`}
               target="_blank"
               rel="noopener noreferrer"
               key={i}
