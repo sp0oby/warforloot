@@ -79,7 +79,7 @@ export default function Home(): ReactElement {
           {getRandomThreeBags().map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
             <a
-              href={`https://testnets.opensea.io/assets/0x10ba0945efa928338e49dfcb31dc52f021c5ca61/${id}`}
+              href={`https://tofunft.com/nft/metis/0xAd60229eCdC4b907F0e2152ba18e284cCBfCb261/${id}`}
               target="_blank"
               rel="noopener noreferrer"
               key={i}
