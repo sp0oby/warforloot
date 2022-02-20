@@ -26,7 +26,10 @@ export default function Home(): ReactElement {
     {
       name: "Rarity",
       url: "https://lootforwar.herokuapp.com/"
-    }
+    },
+    { name: "Medium",
+      url: "https://medium.com/@LootforWar/war-what-is-it-good-for-absolutely-anything-you-can-dream-of-f0338206d250"
+    } 
   ];
 
     /**
